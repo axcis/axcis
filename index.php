@@ -96,21 +96,21 @@
 				<dt>会社名</dt>
 				<dd>株式会社アクシス</dd>
 				<dt>設立</dt>
-				<dd>XXXX年X月XX日</dd>
+				<dd>2014年4月14日</dd>
 				<dt>資本金</dt>
-				<dd>XXXX万円</dd>
+				<dd>300万円</dd>
 				<dt>所在地</dt>
-				<dd>〒000-0000 東京都</dd>
-				<dt>電話番号</dt>
+				<dd>〒101-0032 東京都千代田区岩本町3丁目11-8</dd>
+				<!-- <dt>電話番号</dt>
 				<dd>XXXX</dd>
 				<dt>FAX</dt>
-				<dd>XXXX</dd>
+				<dd>XXXX</dd> -->
 				<dt>事業内容</dt>
 				<dd class="lineh">SES事業<br>
 				受託開発事業<br>
 				</dd>
-				<dt>取引銀行</dt>
-				<dd>XXXX</dd>
+				<!-- <dt>取引銀行</dt>
+				<dd>XXXX</dd> -->
 <!-- 				<dt>個人情報保護方針</dt>
 				<dd class="privacy-link"><a href="privacy.php">プライバシーポリシー<i class="fa fa-external-link a-link-mark" aria-hidden="true"></i></a></dd> -->
 			</dl>
