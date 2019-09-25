@@ -7,7 +7,7 @@
 	<meta name="keywords" content="アクシス,SES,システム開発,IT,WEB制作">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="format-detection" content="telephone=no">
-	<link rel="icon" href="_images/favicon.png">
+	<link rel="icon" href="_images/favicon.ico">
 	<link rel="apple-touch-icon" href="" />
 	<link rel="stylesheet" href="_css/html5reset-1.6.1.css">
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
