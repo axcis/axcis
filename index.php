@@ -119,7 +119,6 @@
 	<div id="contact" class="contents-wrap">
 		<h2 class="ja"><span>CONTACT</span><br>－お問い合わせ－</h2>
 		<div id="corporate-list" class="cf">
-			<p style="text-align: center; font-size: 120%;">大変恐れ入りますが、只今準備中です。</p>
 			<form action="send.php" method="post">
 			<dl>
 				<dt>お名前<span class="req">必須</span></dt>
