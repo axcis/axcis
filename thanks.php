@@ -41,7 +41,7 @@ function dipEmail(){
 	<div class="alert-tel pc-none">
 	<p class="alert-msg-tel ja">お電話でのお問い合わせ</p>
 	<p class="alert-telinfo ja"><a href="tel:0272893209"><i class="fa fa-phone" aria-hidden="true"></i>03-5829-6475</a></p>
-	<p class="alert-telinfo-s ja">平日日10:00～18:00</p>
+	<p class="alert-telinfo-s ja">平日10:00～18:00</p>
 	<p class="alert-telinfo-s ja">(土日祝・GW・お盆・年末年始を除く)</p>
 	</div>
 	</div>

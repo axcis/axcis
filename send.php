@@ -17,9 +17,10 @@ $body2 = '';
 $entry_time = date("Y/m/d H:i:s");
 $subject = "WEBサイトより、お問い合わせがありました";
 $subject2 = "【株式会社アクシス】お問い合わせ受付";
-$to = "emi.kusano@axcis.co.jp,--------@---";
+$to = "kanri@axcis.co.jp,support@axcis.co.jp";
+$from = "support@axcis.co.jp";
 $header = "From:" .mb_encode_mimeheader("お問い合わせの受付") ."<$email>";
-$header2 = "From:" .mb_encode_mimeheader("株式会社アクシス") ."<$to>";
+$header2 = "From:" .mb_encode_mimeheader("株式会社アクシス") ."<$from>";
 $url = "https://www.axcis.co.jp/";
 
 $body =<<<MAILBODY
@@ -91,7 +92,7 @@ MAILBODY;
 //お客様宛メール送信処理
 if(isset($email)){
 	$mail_result1 = mb_send_mail($to,$subject,$body,$header,"-f$email"); 
-	$mail_result2 = mb_send_mail($email,$subject2,$body2,$header2,"-f$to"); 
+	$mail_result2 = mb_send_mail($email,$subject2,$body2,$header2,"-f$from");
 }
 
 //送信終了メッセージ格納

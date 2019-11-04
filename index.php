@@ -112,7 +112,7 @@
 				<!-- <dt>取引銀行</dt>
 				<dd>XXXX</dd> -->
 				<dt>個人情報保護方針</dt>
-				<dd class="privacy-link"><a href="privacy.php">プライバシーポリシー<i class="fa fa-external-link a-link-mark" aria-hidden="true"></i></a></dd> -->
+				<dd class="privacy-link"><a href="privacy.php">プライバシーポリシー<i class="fa fa-external-link a-link-mark" aria-hidden="true"></i></a></dd>
 			</dl>
 		</div>
 	</div>
@@ -120,7 +120,7 @@
 		<h2 class="ja"><span>CONTACT</span><br>－お問い合わせ－</h2>
 		<div id="corporate-list" class="cf">
 			<p style="text-align: center; font-size: 120%;">大変恐れ入りますが、只今準備中です。</p>
-			<!-- <form action="send.php" method="post">
+			<form action="send.php" method="post">
 			<dl>
 				<dt>お名前<span class="req">必須</span></dt>
 				<dd><input type="text" name="name" autocomplete="name"></dd>
@@ -171,7 +171,7 @@
 				<button type="submit">入力内容を確認した上で送信する</button>
 				</div>
 			</dl>
-			</form> -->
+			</form>
 		</div>
 	</div>
 	<footer>
