@@ -16,12 +16,12 @@ $body2 = '';
 
 $entry_time = date("Y/m/d H:i:s");
 $subject = "WEBサイトより、お問い合わせがありました";
-$subject2 = "【株式会社プラスワン】お問い合わせ受付";
-$to = "imai@plus-one01.co.jp";
-/*$mysend = "send@mirai-tasu.com";*/
+$subject2 = "【株式会社アクシス】お問い合わせ受付";
+$to = "kanri@axcis.co.jp,support@axcis.co.jp";
+$from = "support@axcis.co.jp";
 $header = "From:" .mb_encode_mimeheader("お問い合わせの受付") ."<$email>";
-$header2 = "From:" .mb_encode_mimeheader("株式会社プラスワン") ."<$to>";
-$url = "https://plus-one01.co.jp/";
+$header2 = "From:" .mb_encode_mimeheader("株式会社アクシス") ."<$from>";
+$url = "https://www.axcis.co.jp/";
 
 $body =<<<MAILBODY
 WEBサイトより、お問い合わせがありました。
@@ -47,12 +47,12 @@ $body2 = <<<MAILBODY
 {$name}　様
 
 
-この度は株式会社プラスワンへお問い合わせいただき、誠にありがとうございます。
+この度は株式会社アクシスへお問い合わせいただき、誠にありがとうございます。
 
 ご質問内容を確認し、担当者より折り返しご連絡させていただきます。
 
 
-　　　　　　　　　　　　　　　　　　　　　株式会社プラスワン
+　　　　　　　　　　　　　　　　　　　　　株式会社アクシス
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 　■　お問い合わせ内容
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -70,19 +70,19 @@ $body2 = <<<MAILBODY
 
 ■━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━■
 
-   人材派遣事業・有料紹介事業
-   株式会社プラスワン
+   SES システムエンジニアリングサービス
+   株式会社アクシス
 　{$url}
 
 ■━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━■
 
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
 
-このメッセージは、株式会社プラスワンへお問い合わせの際にご入力
+このメッセージは、株式会社アクシスへお問い合わせの際にご入力
 頂いたメールアドレス宛に自動的にお送りしています。
 
 このメールにお心当りのない場合は、
-株式会社プラスワンまでご連絡ください。
+株式会社アクシスまでご連絡ください。
 
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
 MAILBODY;
@@ -92,7 +92,7 @@ MAILBODY;
 //お客様宛メール送信処理
 if(isset($email)){
 	$mail_result1 = mb_send_mail($to,$subject,$body,$header,"-f$email"); 
-	$mail_result2 = mb_send_mail($email,$subject2,$body2,$header2,"-f$to"); 
+	$mail_result2 = mb_send_mail($email,$subject2,$body2,$header2,"-f$from");
 }
 
 //送信終了メッセージ格納
