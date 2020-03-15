@@ -29,22 +29,22 @@ $(function() {
 });
 */
 $(function(){
-var pageTop=$('#pageTop');
-pageTop.hide();
+var topBtn=$('#pageTop');
+topBtn.hide();
  
 //◇ボタンの表示設定
 $(window).scroll(function(){
-  if($(this).scrollTop()>100){
+  if($(this).scrollTop()>80){
     //---- 画面を80pxスクロールしたら、ボタンを表示する
-    pageTop.fadeIn();
+    topBtn.fadeIn();
   }else{
     //---- 画面が80pxより上なら、ボタンを表示しない
-    pageTop.fadeOut();
+    topBtn.fadeOut();
   } 
 });
  
 // ◇ボタンをクリックしたら、スクロールして上に戻る
-pageTop.click(function(){
+topBtn.click(function(){
   $('body,html').animate({
   scrollTop: 0},300);
   return false;
@@ -53,14 +53,13 @@ pageTop.click(function(){
 });
 
 $(function() {
-     $("#menu-trigger").click(function() {
-           $("#overlay").fadeIn();
+     $(".menu-trigger").click(function() {
+           $("#overlay").fadeIn();　/*ふわっと表示*/
  });
-     $("#close,#overlay li").click(function() {
-           $("#overlay").fadeOut();
+     $("#close").click(function() {
+           $("#overlay").fadeOut();　/*ふわっと消える*/
  });
 });
-
 /*
 $(function(){
     $(window).scroll(function (){
