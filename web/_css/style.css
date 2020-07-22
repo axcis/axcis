@@ -1126,7 +1126,8 @@ body,input,textarea,button{
 h1{
     font-size: 16px;
     line-height: 1.4em;
-    padding-top: 50px;
+    margin-top: 50px;
+    padding-top: 0;
 }
 
 .top-sub-title{

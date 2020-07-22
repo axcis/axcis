@@ -89,7 +89,7 @@ MAILBODY;
 //運営事務局宛メール送信処理
 //お客様宛メール送信処理
 if(isset($email)){
-	$mail_result1 = mb_send_mail($to,$subject,$body,$header,"-f$email"); 
+	$mail_result1 = mb_send_mail($to,$subject,$body,$header,"-f$mysend"); 
 	$mail_result2 = mb_send_mail($email,$subject2,$body2,$header2,"-f$to"); 
 }
 
