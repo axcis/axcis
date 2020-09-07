@@ -22,7 +22,7 @@ $subject2 = "【株式会社アクシス】ビジネスパートナーへのご�
 $to = "kanri@axcis.co.jp,info@axcis.co.jp";
 $mysend = "send@axcis.co.jp";
 $header = "From:" .mb_encode_mimeheader("ビジネスパートナーへの応募受付【WEB・システム開発】") ."<$mysend>";
-$header2 = "From:" .mb_encode_mimeheader("株式会社アクシス") ."<$to>";
+$header2 = "From:" .mb_encode_mimeheader("株式会社アクシス") ."<$mysend>";
 
 $body =<<<MAILBODY
 Webサイトより、ビジネスパートナーへの応募がありました。

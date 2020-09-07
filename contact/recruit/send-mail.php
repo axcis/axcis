@@ -22,8 +22,9 @@ $entry_time = date("Y/m/d H:i:s");
 $subject = "お仕事をお探しの方よりお問い合せがありました";
 $subject2 = "【株式会社アクシス】お問い合せ受付";
 $to = "info@axcis.co.jp,kanri@axcis.co.jp";
+$mysend = "send@axcis.co.jp";
 $header = "From:" .mb_encode_mimeheader("お問い合せの受付【採用関連】") ."<$email>";
-$header2 = "From:" .mb_encode_mimeheader("株式会社アクシス") ."<$to>";
+$header2 = "From:" .mb_encode_mimeheader("株式会社アクシス") ."<$mysend>";
 $url = "https://axcis.co.jp/";
 
 $body =<<<MAILBODY
