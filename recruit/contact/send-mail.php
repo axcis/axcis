@@ -22,8 +22,9 @@ $entry_time = date("Y/m/d H:i:s");
 $subject = "掲載求人へのお問い合せがありました";
 $subject2 = "【株式会社アクシス】お問い合せ受付";
 $to = "info@axcis.co.jp,kanri@axcis.co.jp";
+$mysend = "send@axcis.co.jp";
 $header = "From:" .mb_encode_mimeheader("【掲載求人関連】お問い合せの受付") ."<$email>";
-$header2 = "From:" .mb_encode_mimeheader("株式会社アクシス") ."<$to>";
+$header2 = "From:" .mb_encode_mimeheader("株式会社アクシス") ."<$mysend>";
 $url = "http://axcis.co.jp/";
 
 $body =<<<MAILBODY
@@ -77,7 +78,7 @@ Eメールの添付ファイル(※1)、またはご郵送(※2)
 --------------------------------
 【※2　ご郵送の場合の宛先】
 
-〒〒105-0004 
+〒105-0004 
 東京都港区新橋1丁目12-9 
 A-PLACE新橋駅前 7F
 

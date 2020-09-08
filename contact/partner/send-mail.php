@@ -16,10 +16,10 @@ $body2 = '';
 $entry_time = date("Y/m/d H:i:s");
 $subject = "ビジネスパートナーに関するお問い合せがありました";
 $subject2 = "【株式会社アクシス】お問い合せ受付";
-$to = "kanri@axcis.co.jp,info@axcis.co.jp,motohashi@axcis.co.jp";
+$to = "kanri@axcis.co.jp,info@axcis.co.jp";
 $mysend = "send@axcis.co.jp";
 $header = "From:" .mb_encode_mimeheader("お問い合せの受付【ビジネスパートナー】") ."<$mysend>";
-$header2 = "From:" .mb_encode_mimeheader("株式会社アクシス") ."<$to>";
+$header2 = "From:" .mb_encode_mimeheader("株式会社アクシス") ."<$mysend>";
 $url = "http://axcis.co.jp/";
 
 $body =<<<MAILBODY
