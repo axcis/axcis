@@ -25,8 +25,7 @@ $to = "emi.kusano@axcis.co.jp";
 $mysend = "send@axcis.co.jp";
 $header = "From:" .mb_encode_mimeheader("【掲載求人関連】お問い合せの受付") ."<$email>";
 $header2 = "From:" .mb_encode_mimeheader("株式会社アクシス") ."<$mysend>";
-$url = "http://axcis.co.jp/";
-$url2 = "https://axcis.co.jp/recruit/contact/";
+$url = "https://axcis-staging.com/axcis/";
 
 $body =<<<MAILBODY
 Webサイトより、掲載求人へのお問い合せお問い合せがありました。
@@ -76,8 +75,10 @@ Eメールの添付ファイル(※2)、またはご郵送(※3)にて
 --------------------------------
 【※1　採用応募者の個人情報の取扱いについての書類】
 
-{$url2}
-こちらのページ下部よりダウンロードの上、ご署名ください。
+{$url}pdf/rapi.pdf
+
+こちらのページよりダウンロードの上、ご署名ください。
+※PDFページが開きます。
 
 --------------------------------
 【※2　Eメールの場合の宛先】

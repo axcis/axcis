@@ -12,8 +12,8 @@ $_SESSION['email'] = $_POST['email'];
 $_SESSION['gender'] = $_POST['gender'];
 $_SESSION['age'] = $_POST['age'];
 $_SESSION['works'] = $_POST['works'];
-$_SESSION['jobcategory'] = (implode("、",$_POST['jobcategory']));
-$_SESSION['jobpattern'] = (implode("、",$_POST['jobpattern']));
+$_SESSION['jobcategory'] = (@implode("、",$_POST['jobcategory']));
+$_SESSION['jobpattern'] = (@implode("、",$_POST['jobpattern']));
 $_SESSION['comment'] = $_POST['comment'];
 ?>
 
