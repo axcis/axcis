@@ -599,3 +599,31 @@ text-align: center;
 color: #636060;
 text-shadow: .5px .5px .5px #444;
 } */
+
+/*20201021改修*/
+
+.privacy-msg{
+	width: 80%;
+	max-width: 700px;
+    margin: 2em auto 0;
+    padding: 1em;
+    border: solid 4px #eee;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.basicBtn-wrap{
+	max-width: 300px;
+	width: 100%;
+	margin: 1em auto 0;
+}
+
+.basicBtn-wrap a{
+	width: 100%;
+	display: block;
+	font-size: 96%;
+	color: #fff;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}

@@ -245,7 +245,7 @@ footer{
 }
 #footerContents{
 	width: 1160px;
-	padding-left: 30px;
+	padding: 0 0 60px 30px;
 }
 
 
